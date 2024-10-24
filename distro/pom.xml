@@ -47,7 +47,7 @@
     <dependency>
       <groupId>org.openmrs.module</groupId>
       <artifactId>ugandaemrreports</artifactId>
-      <version>${ugandaemrreports.version}</version>
+      <version>${ugandaemrreports}</version>
     </dependency>
   </dependencies>
 
