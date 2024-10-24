@@ -21,10 +21,11 @@
     <maven.compiler.target>8</maven.compiler.target>
     <PatientIdentifierGeneratorVersion>0.1.0</PatientIdentifierGeneratorVersion>
     <UVLReferenceapplicationDockerVersion>qa</UVLReferenceapplicationDockerVersion>
-    <!-- Stock Management and Billing -->
+    <!-- Stock Management, Uganda Emr Reports and Billing -->
     <stockmanagement.version>2.0.2-SNAPSHOT</stockmanagement.version>
     <billing.version>1.2.0-SNAPSHOT</billing.version>
     <initializer.version>2.8.0-SNAPSHOT</initializer.version>
+    <ugandaemrreports>2.0.38-SNAPSHOT</ugandaemrreports>
   </properties>
 
   <dependencies>
@@ -42,6 +43,11 @@
       <groupId>org.openmrs.module</groupId>
       <artifactId>initializer-omod</artifactId>
       <version>${initializer.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openmrs.module</groupId>
+      <artifactId>ugandaemrreports</artifactId>
+      <version>${ugandaemrreports.version}</version>
     </dependency>
   </dependencies>
 
